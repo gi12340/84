@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>C81 - Canvas </title>
+
+<!--Esta tag é usada para vincular uma folha de estilo externa ao documento HTML. 
+O atributo "rel" especifica o tipo de relação entre o documento atual e o documento vinculado. 
+Neste caso, "stylesheet" indica que o documento vinculado é uma folha de estilo. O atributo "type" especifica o 
+tipo de mídia do documento vinculado, neste caso, "text/css" indica que o arquivo é uma folha de estilo CSS. 
+O atributo "href" especifica o caminho para o arquivo CSS externo. 
+Neste exemplo, o arquivo CSS está localizado no mesmo diretório e tem o nome "style.css".-->
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+
+
+<!--Essa classe pode ser usada para aplicar estilos específicos ao corpo da página usando CSS.-->
+<body class="bodyBackgorund">
+
+    <center>
+
+<!--define um cabeçalho de nível 1 (h1) e exibe o texto "Meu Primeiro Canvas" 
+como o título principal da página. -->
+
+	<h1>Meu Primeiro Canvas</h1>
+
+    <!--Esta tag cria um elemento Canvas na página. O atributo "id" é usado para identificar 
+    o elemento e pode ser usado posteriormente para acessá-lo via JavaScript ou CSS. -->
+
+	<canvas id="myCanvas" width="800" height="600">
+	</canvas>
+	<br>
+	
+    <!-- *O elemento Canvas é usado para desenhar gráficos, 
+        animações e outros elementos visuais usando JavaScript. 
+   -->
+
+   <span>Cor - </span>  <input type="color" id="color">
+   
+   <!--Tag <span> é usada para agrupar e estilizar um 
+    trecho de texto LADO A LADO
+    dentro de um documento HTML.-->
+
+    <!--<input> cria um campo de entrada no formulário. 
+    O atributo type é definido como "color"-->
+
+   <br> <br> 
+
+   <button onclick="clearArea();">Limpar</button>
+</center>
+
+<script src="main.js"></script>
+
+
+
+</body>
+</html>

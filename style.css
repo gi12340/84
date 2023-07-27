@@ -1,0 +1,21 @@
+.bodyBackground {
+    background-color: cornflowerblue;
+    background-position: center;
+    background-size: cover;
+  }
+  h1
+  {
+      color: rgb(189, 243, 212); 
+      font-size: 40px;
+  }
+  
+  #myCanvas
+  {
+      border-width:10px;
+      background-color: white; 
+      border-style:ridge;
+  }
+  span
+  {
+      font-size: 20px;
+  }
